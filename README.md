@@ -6,7 +6,7 @@ Solutions for https://www.spotify.com/se/jobs/tech/, written for Python 2.6.
 Reverse Binary
 ==============
 
-Confirmed working on submission to puzzles@spotify.com
+Confirmed working on submission to puzzle@spotify.com
 
 Zipf's Song
 ===========
