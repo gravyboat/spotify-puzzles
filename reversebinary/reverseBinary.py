@@ -16,6 +16,6 @@ if not sys.stdin.isatty():
     revInstance = reverser()
     for i in data:
         print(revInstance.reverseIt(i))
+
 if __name__ == '__main__' and sys.stdin.isatty():
-    revInstance = reverser()
-    print(revInstance.reverseIt(47))
+    print('You need to pass in a file')
