@@ -5,9 +5,21 @@ import sys
 
 sys.path.insert(0, '../')
 
+simpleList = [('', , ), ('', , )]
+complexList = [('', , ), ('', , )]
+equalPopularity = [('', , ), ('', , )]
+checkAllSongs = [('', , ), ('', , )]
+
 class zipfSongTestCase(unittest.TestCase):
 
+    def setUp(self):
+        self.simpleList = simpleList
+        self.complexList = complexList
+        self.equalPopularity = equalPopularity
+        self.checkAllSongs = checkAllSongs
+
     def test_simpleList(self):
+        from zipfSong import topSongs
 
     def test_complexList(self):
 

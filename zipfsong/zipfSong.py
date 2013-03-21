@@ -39,6 +39,7 @@ class topSongs(object):
                 break
 if not sys.stdin.isatty():
     songData = (line for line in sys.stdin.readlines() if line.strip() != '')
+    print(songData)
     topSongsInstance = topSongs()
     (zipfSolution, totalSongs) = topSongsInstance.zipfItGood(songData)
     topSongsInstance.sortSongs(zipfSolution, totalSongs )
