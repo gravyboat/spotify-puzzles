@@ -2,7 +2,7 @@ import unittest
 import os
 import sys
 
-sys.path.insert(0, '../')
+sys.path.insert(0, '../') # Using this because we don't have test discovery in 2.6
 
 testValue = 47
 
